@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: www.wdcc.co.nz/sitemap.xml
