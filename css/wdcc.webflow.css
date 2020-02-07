@@ -1353,6 +1353,7 @@
 .primary-heading {
   margin-bottom: 15px;
   color: #333;
+  font-size: 40px;
   font-weight: 700;
   text-align: center;
 }
@@ -2683,6 +2684,8 @@
 
 .heading-11 {
   color: #333;
+  font-size: 32px;
+  line-height: 45px;
   text-align: center;
 }
 
@@ -2743,9 +2746,11 @@
 }
 
 .primary-heading-2.heading-white {
+  margin-top: 20px;
   margin-bottom: 30px;
   color: #fff;
   font-size: 27px;
+  line-height: 44px;
 }
 
 .hero-boxes-wrapper {
