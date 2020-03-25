@@ -1294,6 +1294,12 @@
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+.service-section.sponsors {
+  height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .service-card-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1400,7 +1406,7 @@
 .primary-heading {
   margin-bottom: 15px;
   color: #333;
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   text-align: center;
 }
@@ -3727,6 +3733,31 @@
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+.section-sponsors {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.img-sponsor-silver {
+  width: 300px;
+  -webkit-transition: width 200ms ease;
+  transition: width 200ms ease;
+}
+
+.img-sponsor-silver:hover {
+  width: 320px;
 }
 
 html.w-mod-js *[data-ix="process-1"] {
