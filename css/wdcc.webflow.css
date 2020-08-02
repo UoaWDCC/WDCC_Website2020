@@ -4179,7 +4179,7 @@ body {
 }
 
 .register-button {
-  margin-top: 74px;
+  margin-top: 40px;
   padding: 10px 62px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -4250,7 +4250,7 @@ body {
 }
 
 .button-5 {
-  margin-top: 92px;
+  margin-top: 50px;
   padding: 10px 62px;
   border-radius: 10px;
   background-color: #003590;
@@ -4550,9 +4550,6 @@ html.w-mod-js *[data-ix="process-1"] {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-  .section {
-    padding-bottom: 201px;
   }
   .contact-right {
     display: none;
@@ -5563,6 +5560,9 @@ html.w-mod-js *[data-ix="process-1"] {
     font-size: 8vw;
     line-height: 10vw;
   }
+  .paragraph-9 {
+    font-size: 16px;
+  }
   .button-2.btn-register {
     margin-top: 20px;
     padding: 30px 40px;
@@ -5643,6 +5643,19 @@ html.w-mod-js *[data-ix="process-1"] {
   }
   .tabs {
     width: 100%;
+  }
+  .register-button {
+    margin-top: 40px;
+  }
+  .bold-text-2 {
+    margin-bottom: 20px;
+    padding-bottom: 0px;
+  }
+  .button-5 {
+    margin-top: 30px;
+  }
+  .text-block-5 {
+    text-align: center;
   }
 }
 
