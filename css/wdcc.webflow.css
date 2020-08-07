@@ -1576,6 +1576,7 @@ body {
 .get-started-link.hackathon {
   top: 7px;
   padding-top: 10px;
+  padding-bottom: 0px;
   clear: none;
   font-family: Montserrat, sans-serif;
   font-size: 20px;
@@ -3365,6 +3366,8 @@ body {
 }
 
 .paragraph-9 {
+  margin-top: 55px;
+  margin-bottom: 58px;
   font-size: 20px;
   line-height: 28px;
   font-weight: 400;
@@ -4192,7 +4195,8 @@ body {
 }
 
 .register-button {
-  margin-top: 40px;
+  margin-top: 2px;
+  margin-bottom: 0px;
   padding: 10px 62px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -4238,7 +4242,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 36px;
-  padding-top: 0px;
+  padding-top: 44px;
   padding-bottom: 19px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -4258,12 +4262,13 @@ body {
 }
 
 .text-block-3 {
-  padding-top: 29px;
+  padding-top: 5px;
   font-family: Exo, sans-serif;
 }
 
 .button-5 {
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding: 10px 62px;
   border-radius: 10px;
   background-color: #003590;
@@ -4300,8 +4305,12 @@ body {
 }
 
 .text-block-5 {
-  margin-top: 35px;
-  font-size: 16px;
+  margin-top: 0px;
+  padding-right: 50px;
+  padding-bottom: 65px;
+  padding-left: 50px;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 .div-block-18 {
@@ -4322,6 +4331,95 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.div-block-19 {
+  display: block;
+  padding-top: 89px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.text-block-6 {
+  padding-bottom: 28px;
+}
+
+.text-block-7 {
+  display: block;
+  margin-bottom: 25px;
+  padding: 6px 50px 0px;
+  float: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.image-13 {
+  display: block;
+  width: 60%;
+  height: 60%;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0%;
+  line-height: 0%;
+  text-align: center;
+}
+
+.text-block-8 {
+  margin-top: 52px;
+  margin-bottom: 52px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.text-block-9 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.div-block-20 {
+  padding-bottom: 21px;
+}
+
+.text-block-10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.bold-text-3 {
+  font-size: 25px;
+}
+
+.image-14 {
+  width: 50%;
+  height: 60%;
 }
 
 html.w-mod-js *[data-ix="process-1"] {
