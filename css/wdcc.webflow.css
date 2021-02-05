@@ -2689,7 +2689,7 @@ body {
 
 .card-body {
   height: 100%;
-  padding: 5px 30px;
+  padding: 5px 5px;
 }
 
 .card-body.contact-body {
@@ -2772,6 +2772,31 @@ body {
   right: -210%;
 }
 
+.carousel-slider._12 {
+  right: -231%;
+}
+
+.carousel-slider._13 {
+  right: -252%;
+}
+
+.carousel-slider._14 {
+  right: -273%;
+}
+
+.carousel-slider._15 {
+  right: -294%;
+}
+
+.carousel-slider._16 {
+  right: -315%;
+}
+
+.carousel-slider._17 {
+  right: -336%;
+}
+
+
 .btn {
   padding: 10px 20px;
   -webkit-box-flex: 0;
@@ -2825,7 +2850,7 @@ body {
 
 .paragraph-7 {
   margin-top: 5px;
-  padding-top: 5px;
+  padding: 5px 10px ;
   padding-bottom: 5px;
   color: #333;
   font-size: 16px;
