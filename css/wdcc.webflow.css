@@ -4966,6 +4966,8 @@ body {
 
 .link-block {
   margin-top: -13px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .link-block-2 {
@@ -4974,6 +4976,14 @@ body {
 
 .link-block-3 {
   margin-bottom: -12px;
+  padding-right: 6px;
+  padding-left: 0px;
+}
+
+.link-block-5 {
+  margin-bottom: -34px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .heading-213 {
@@ -4984,6 +4994,7 @@ body {
 .link-block-4 {
   margin-left: 75px;
 }
+
 
 html.w-mod-js *[data-ix="process-1"] {
   opacity: 1;
