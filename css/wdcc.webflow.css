@@ -6832,6 +6832,23 @@ html.w-mod-js *[data-ix="process-1"] {
     margin-bottom: 1px;
   }
 
+  .section-sponsors.bronze {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 500px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .img-sponsor-silver.bronze-sponsor-logo {
+    margin-top: 20px;
+  }
+
   .service-container-2 {
     padding: 5px 10px;
   }
