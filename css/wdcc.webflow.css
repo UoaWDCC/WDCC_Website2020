@@ -21,6 +21,30 @@
   background-position: 50% 50%;
 }
 
+.block-left {
+  width: 50%;
+  padding-top: 0px;
+}
+
+.block-right {
+  width: 50%;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.about-hero-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #333;
+}
+
 .w-embed-youtubevideo:empty {
   min-height: 75px;
   padding-bottom: 56.25%;
@@ -6229,6 +6253,18 @@ html.w-mod-js *[data-ix="process-1"] {
   .hero-section {
     height: 700px;
   }
+
+  .block-left {
+    width: 90%;
+    text-align: center;
+  }
+
+  .block-right {
+    width: 65%;
+    margin-bottom: 30px;
+    clear: none;
+  }
+
   .project_card_container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -6244,6 +6280,7 @@ html.w-mod-js *[data-ix="process-1"] {
     -ms-flex-align: center;
     align-items: center;
 }
+
   .hero-content-wrapper {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
