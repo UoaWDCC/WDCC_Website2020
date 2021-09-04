@@ -20,6 +20,19 @@
   text-align: center;
 }
 
+.about-hero-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #333;
+}
+
 .w-embed-youtubevideo:empty {
   min-height: 75px;
   padding-bottom: 56.25%;
