@@ -9,6 +9,17 @@
   background-position: 50% 50%;
 }
 
+.block-left {
+  width: 50%;
+  padding-top: 0px;
+}
+
+.block-right {
+  width: 50%;
+  padding-top: 0px;
+  text-align: center;
+}
+
 .w-embed-youtubevideo:empty {
   min-height: 75px;
   padding-bottom: 56.25%;
@@ -5602,6 +5613,17 @@ html.w-mod-js *[data-ix="process-1"] {
 @media screen and (max-width: 767px) {
   .hero-section {
     height: 700px;
+  }
+
+  .block-left {
+    width: 90%;
+    text-align: center;
+  }
+
+  .block-right {
+    width: 65%;
+    margin-bottom: 30px;
+    clear: none;
   }
 
   .hero-content-wrapper {
