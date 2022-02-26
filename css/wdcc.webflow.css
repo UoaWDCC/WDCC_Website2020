@@ -16,7 +16,7 @@
   padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg');
+  background-image: url("https://d3e54v103j8qbb.cloudfront.net/static/youtube-placeholder.2b05e7d68d.svg");
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -51,7 +51,7 @@
 }
 
 body {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -136,9 +136,21 @@ body {
   overflow: hidden;
   height: 100vh;
   background-color: #515967;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 96, 157, 0.2)), to(rgba(29, 96, 157, 0.2))), -webkit-gradient(linear, left top, left bottom, from(#0d294e), color-stop(38%, #1d609d), to(#0d294e));
-  background-image: linear-gradient(180deg, rgba(29, 96, 157, 0.2), rgba(29, 96, 157, 0.2)), linear-gradient(180deg, #0d294e, #1d609d 38%, #0d294e);
-  font-family: 'Helvetica Neue', sans-serif;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(29, 96, 157, 0.2)),
+      to(rgba(29, 96, 157, 0.2))
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(#0d294e), color-stop(38%, #1d609d), to(#0d294e));
+  background-image: linear-gradient(
+      180deg,
+      rgba(29, 96, 157, 0.2),
+      rgba(29, 96, 157, 0.2)
+    ),
+    linear-gradient(180deg, #0d294e, #1d609d 38%, #0d294e);
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .bubble-wrapper {
@@ -1335,9 +1347,15 @@ body {
   z-index: 1000;
   padding: 80px 5vw 100px;
   background-color: #ecf0f3;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#fff)
+  );
   background-image: linear-gradient(180deg, #fff, #fff);
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .service-section.sponsors {
@@ -1382,7 +1400,8 @@ body {
   -webkit-transition: box-shadow 250ms ease, -webkit-transform 250ms ease;
   transition: box-shadow 250ms ease, -webkit-transform 250ms ease;
   transition: box-shadow 250ms ease, transform 250ms ease;
-  transition: box-shadow 250ms ease, transform 250ms ease, -webkit-transform 250ms ease;
+  transition: box-shadow 250ms ease, transform 250ms ease,
+    -webkit-transform 250ms ease;
   text-align: center;
 }
 
@@ -1526,9 +1545,15 @@ body {
   overflow: hidden;
   padding: 15vw 5vw;
   background-color: #515967;
-  background-image: -webkit-gradient(linear, left top, right top, from(#141e30), to(#243b55));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#141e30),
+    to(#243b55)
+  );
   background-image: linear-gradient(90deg, #141e30, #243b55);
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .why-data-container {
@@ -1552,7 +1577,7 @@ body {
 }
 
 .data-paragraph {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   color: #fff;
   font-size: 23px;
   line-height: 31px;
@@ -1584,7 +1609,7 @@ body {
   z-index: 30;
   padding: 0px 10px 5px 0px;
   float: left;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #4e4e4e;
   font-size: 16.5px;
   line-height: 28px;
@@ -1659,7 +1684,7 @@ body {
   height: auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-image: url('../images/cloud-green.png');
+  background-image: url("../images/cloud-green.png");
   background-position: 0% 50%;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -1708,8 +1733,20 @@ body {
   overflow: hidden;
   padding: 100px 5vw;
   background-color: #f9f9f9;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 97.7%, 0.4)), to(hsla(0, 0%, 97.7%, 0.4))), url('../images/block-bg-1.png');
-  background-image: linear-gradient(180deg, hsla(0, 0%, 97.7%, 0.4), hsla(0, 0%, 97.7%, 0.4)), url('../images/block-bg-1.png');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(hsla(0, 0%, 97.7%, 0.4)),
+      to(hsla(0, 0%, 97.7%, 0.4))
+    ),
+    url("../images/block-bg-1.png");
+  background-image: linear-gradient(
+      180deg,
+      hsla(0, 0%, 97.7%, 0.4),
+      hsla(0, 0%, 97.7%, 0.4)
+    ),
+    url("../images/block-bg-1.png");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -1731,7 +1768,8 @@ body {
   -webkit-transition: box-shadow 250ms ease, -webkit-transform 250ms ease;
   transition: box-shadow 250ms ease, -webkit-transform 250ms ease;
   transition: box-shadow 250ms ease, transform 250ms ease;
-  transition: box-shadow 250ms ease, transform 250ms ease, -webkit-transform 250ms ease;
+  transition: box-shadow 250ms ease, transform 250ms ease,
+    -webkit-transform 250ms ease;
   text-align: center;
 }
 
@@ -1805,7 +1843,12 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
   background-color: #515967;
-  background-image: linear-gradient(180deg, rgba(20, 30, 48, 0.3), rgba(20, 30, 48, 0.3)), linear-gradient(16deg, #141e30, #243b55 50%, #141e30);
+  background-image: linear-gradient(
+      180deg,
+      rgba(20, 30, 48, 0.3),
+      rgba(20, 30, 48, 0.3)
+    ),
+    linear-gradient(16deg, #141e30, #243b55 50%, #141e30);
 }
 
 .cta-container {
@@ -1827,7 +1870,7 @@ body {
 
 .paragraph-3 {
   width: 200px;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-size: 17px;
   line-height: 24px;
   font-weight: 300;
@@ -2075,7 +2118,8 @@ body {
   -webkit-transition: opacity 250ms ease, -webkit-transform 250ms ease;
   transition: opacity 250ms ease, -webkit-transform 250ms ease;
   transition: transform 250ms ease, opacity 250ms ease;
-  transition: transform 250ms ease, opacity 250ms ease, -webkit-transform 250ms ease;
+  transition: transform 250ms ease, opacity 250ms ease,
+    -webkit-transform 250ms ease;
 }
 
 .powered-by:hover {
@@ -2098,7 +2142,7 @@ body {
 }
 
 .body-2 {
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .navbar-2 {
@@ -2461,7 +2505,9 @@ body {
 
 .contact-section {
   padding: 100px 5vw 200px;
-  background-image: url('../images/block-bg-1.png'), linear-gradient(180deg, rgba(20, 30, 48, 0.3), rgba(20, 30, 48, 0.3)), linear-gradient(16deg, #141e30, #243b55 50%, #141e30);
+  background-image: url("../images/block-bg-1.png"),
+    linear-gradient(180deg, rgba(20, 30, 48, 0.3), rgba(20, 30, 48, 0.3)),
+    linear-gradient(16deg, #141e30, #243b55 50%, #141e30);
   background-position: 50% 0%, 0px 0px, 0px 0px;
   background-size: cover, auto, auto;
 }
@@ -2534,7 +2580,7 @@ body {
   align-items: center;
   border-bottom: 1px none #d6d6d6;
   background-color: #fff;
-  background-image: url('../images/block-bg-1.png');
+  background-image: url("../images/block-bg-1.png");
   background-position: 0px 0px;
   background-size: cover;
   font-family: Exo, sans-serif;
@@ -2544,7 +2590,7 @@ body {
 .a-icon {
   width: 100%;
   height: 100%;
-  background-image: url('../images/icon-a.svg');
+  background-image: url("../images/icon-a.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2555,7 +2601,7 @@ body {
   position: static;
   width: 100%;
   height: 80%;
-  background-image: url('../images/Dataphone_Logo.svg');
+  background-image: url("../images/Dataphone_Logo.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2565,7 +2611,7 @@ body {
 .data-logo-div {
   width: 100%;
   height: 100%;
-  background-image: url('../images/Dataphone_Logo.svg');
+  background-image: url("../images/Dataphone_Logo.svg");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2576,7 +2622,7 @@ body {
   position: static;
   width: 30%;
   height: 80%;
-  background-image: url('../images/data-contact-logo.png');
+  background-image: url("../images/data-contact-logo.png");
   background-position: 50% 50%;
   background-size: contain;
   background-repeat: no-repeat;
@@ -2645,7 +2691,7 @@ body {
   width: 100%;
   height: 90px;
   margin-bottom: 30px;
-  background-image: url('../images/Dataphone_Logo.svg');
+  background-image: url("../images/Dataphone_Logo.svg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2710,8 +2756,20 @@ body {
   margin-left: auto;
   border-radius: 5px;
   background-color: transparent;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.04)), to(rgba(0, 0, 0, 0.04))), -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.85)), to(hsla(0, 0%, 100%, 0.85)));
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.04)), linear-gradient(180deg, hsla(0, 0%, 100%, 0.85), hsla(0, 0%, 100%, 0.85));
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.04)),
+      to(rgba(0, 0, 0, 0.04))
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.85)), to(hsla(0, 0%, 100%, 0.85)));
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.04),
+      rgba(0, 0, 0, 0.04)
+    ),
+    linear-gradient(180deg, hsla(0, 0%, 100%, 0.85), hsla(0, 0%, 100%, 0.85));
   box-shadow: 0 5px 2rem 0 rgba(0, 0, 0, 0.3);
   color: #b8b9c2;
 }
@@ -2843,7 +2901,6 @@ body {
   right: -336%;
 }
 
-
 .btn {
   padding: 10px 20px;
   -webkit-box-flex: 0;
@@ -2897,7 +2954,7 @@ body {
 
 .paragraph-7 {
   margin-top: 5px;
-  padding: 5px 10px ;
+  padding: 5px 10px;
   padding-bottom: 5px;
   color: #333;
   font-size: 16px;
@@ -3127,7 +3184,7 @@ body {
 }
 
 .div-block-4 {
-  background-image: url('../images/iphoneMockup.png');
+  background-image: url("../images/iphoneMockup.png");
   background-position: 50% 50%;
   background-size: cover;
   -webkit-transform: rotate(45deg);
@@ -3514,7 +3571,8 @@ body {
   border-radius: 10px;
   background-color: #1c5a9a;
   box-shadow: 1px 1px 9px 0 #000;
-  font-family: 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode",
+    "Lucida Sans", Tahoma, sans-serif;
   font-size: 25px;
   font-weight: 400;
 }
@@ -3598,8 +3656,20 @@ body {
   grid-row-gap: 42px;
   -ms-grid-rows: auto auto auto auto auto;
   grid-template-rows: auto auto auto auto auto;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.7)), to(hsla(0, 0%, 100%, 0.7))), url('../images/block-bg-1.png');
-  background-image: linear-gradient(180deg, hsla(0, 0%, 100%, 0.7), hsla(0, 0%, 100%, 0.7)), url('../images/block-bg-1.png');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(hsla(0, 0%, 100%, 0.7)),
+      to(hsla(0, 0%, 100%, 0.7))
+    ),
+    url("../images/block-bg-1.png");
+  background-image: linear-gradient(
+      180deg,
+      hsla(0, 0%, 100%, 0.7),
+      hsla(0, 0%, 100%, 0.7)
+    ),
+    url("../images/block-bg-1.png");
   background-position: 0px 0px, 0px 0px;
   background-size: auto, auto;
 }
@@ -3673,14 +3743,14 @@ body {
   height: 100px;
   border-radius: 10px;
   background-color: #fafdfd;
-  background-image: url('../images/chrome.png');
+  background-image: url("../images/chrome.png");
   background-position: 50% 50%;
   background-size: 100px;
   box-shadow: 1px 1px 3px 0 #333;
 }
 
 .button-3.vscode {
-  background-image: url('../images/1200px-Visual_Studio_Code_1.35_icon.svg.png');
+  background-image: url("../images/1200px-Visual_Studio_Code_1.35_icon.svg.png");
 }
 
 .button-3.resources {
@@ -3690,18 +3760,18 @@ body {
   min-width: 80px;
   margin-bottom: 40px;
   background-color: #fff;
-  background-image: url('../images/GitHub-Mark.png');
+  background-image: url("../images/GitHub-Mark.png");
   background-size: 60px;
   background-repeat: no-repeat;
 }
 
 .button-3.resources.wdccwebsite {
-  background-image: url('../images/zip-outline.png');
+  background-image: url("../images/zip-outline.png");
   background-size: 60px;
 }
 
 .button-3.resources.googledrive {
-  background-image: url('../images/1024px-Logo_of_Google_Drive.svg.png');
+  background-image: url("../images/1024px-Logo_of_Google_Drive.svg.png");
 }
 
 .div-block-14 {
@@ -3915,38 +3985,11 @@ body {
   transition: box-shadow 200ms ease, width 200ms ease;
 }
 
-.img-sponsor-silver:hover {
-  width: 320px;
-  box-shadow: 11px 11px 20px -2px rgba(0, 0, 0, 0.12);
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-}
-
-.img-sponsor-silver.gold-sponsor-logo:hover {
-  box-shadow: 7px 7px 20px -6px gold;
-}
-
-.img-sponsor-silver.silver-sponsor-logo:hover {
-  box-shadow: 11px 11px 20px -2px silver;
-}
-
-.img-sponsor-silver.bronze-sponsor-logo:hover {
-  box-shadow: 11px 11px 20px -13px #cd7f32;
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
 .img-sponsor-silver.silver-sponsor-logo.aws_logo {
   -webkit-transition: box-shadow 200ms ease, width 200ms ease;
   transition: box-shadow 200ms ease, width 200ms ease;
 }
 
-.img-sponsor-silver.silver-sponsor-logo.aws_logo:hover {
-  -webkit-transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  transform: translate(0px, 0px);
-}
 .youtube {
   width: 70%;
 }
@@ -4331,7 +4374,7 @@ body {
   border-radius: 10px;
   background-color: #003590;
   opacity: 0.7;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   cursor: pointer;
 }
@@ -4737,7 +4780,7 @@ body {
 }
 
 .body-3 {
-  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   cursor: auto;
   -o-object-fit: fill;
   object-fit: fill;
@@ -4943,7 +4986,7 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: #d3d3d3;
-  font-family: 'Helvetica Neue', sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
 }
 
 .flex-container {
@@ -5061,12 +5104,12 @@ body {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16.5px;
 }
 
 .list {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -5096,14 +5139,14 @@ body {
 }
 
 .text-block-15 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
 .text-block-16 {
   position: relative;
   z-index: 30;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 
@@ -5131,7 +5174,13 @@ body {
   height: 340px;
   padding: 30px;
   border-radius: 8px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#000),
+    to(#000)
+  );
   background-image: linear-gradient(180deg, #000, #000);
   -webkit-transition: box-shadow 400ms ease;
   transition: box-shadow 400ms ease;
@@ -5142,7 +5191,7 @@ body {
   border-style: solid;
   border-width: 0.5px;
   border-color: #ebebeb;
-  background-image: url('../images/CMLG_Photo..png');
+  background-image: url("../images/CMLG_Photo..png");
   background-position: 50% 50%;
   background-size: 150%;
   background-repeat: no-repeat;
@@ -5182,7 +5231,8 @@ body {
   -webkit-align-content: center;
   -ms-flex-line-pack: center;
   align-content: center;
-  background-image: url('../images/ASPA_Photo.jpg'), url('../images/billiards-4774216.jpg');
+  background-image: url("../images/ASPA_Photo.jpg"),
+    url("../images/billiards-4774216.jpg");
   background-position: 50% 100%, 45% 50%;
   background-size: auto, 350px;
   -webkit-transition-property: all;
@@ -5202,7 +5252,7 @@ body {
   border-style: solid;
   border-width: 0.5px;
   border-color: #ebebeb;
-  background-image: url('../images/NZPMClogo2.png');
+  background-image: url("../images/NZPMClogo2.png");
   background-position: 33% 50%;
   background-size: 550%;
 }
@@ -5217,8 +5267,10 @@ body {
   border-style: solid;
   border-width: 0.5px;
   border-color: #ebebeb;
-  background-image: url('../images/NZCSA_Logo.jpg'), -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
-  background-image: url('../images/NZCSA_Logo.jpg'), linear-gradient(180deg, #000, #000);
+  background-image: url("../images/NZCSA_Logo.jpg"),
+    -webkit-gradient(linear, left top, left bottom, from(#000), to(#000));
+  background-image: url("../images/NZCSA_Logo.jpg"),
+    linear-gradient(180deg, #000, #000);
   background-position: 50% 50%, 0px 0px;
   background-size: 100% 86%, auto;
   background-repeat: repeat, repeat;
@@ -5266,8 +5318,10 @@ body {
   float: none;
   border-radius: 4px;
   background-color: #1991eb;
-  -webkit-transition: color 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
-  transition: color 200ms ease, box-shadow 200ms ease, background-color 200ms ease;
+  -webkit-transition: color 200ms ease, box-shadow 200ms ease,
+    background-color 200ms ease;
+  transition: color 200ms ease, box-shadow 200ms ease,
+    background-color 200ms ease;
   color: #fff;
   line-height: 22px;
 }
@@ -5285,8 +5339,10 @@ body {
   -ms-flex-align: end;
   align-items: flex-end;
   background-color: #fff;
-  -webkit-transition: color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
-  transition: color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+  -webkit-transition: color 200ms ease, background-color 200ms ease,
+    box-shadow 200ms ease;
+  transition: color 200ms ease, background-color 200ms ease,
+    box-shadow 200ms ease;
   color: #5b697a;
 }
 
@@ -5315,8 +5371,8 @@ body {
 .button-7.default-button.card-cta.nzpmc_button {
   left: 80px;
   background-color: #f5f5f5;
-  -webkit-transition: box-shadow 425ms cubic-bezier(.165, .84, .44, 1);
-  transition: box-shadow 425ms cubic-bezier(.165, .84, .44, 1);
+  -webkit-transition: box-shadow 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: box-shadow 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .button-7.default-button.card-cta.nzpmc_button:hover {
@@ -5329,8 +5385,8 @@ body {
 .button-7.default-button.card-cta.aspa_button {
   left: 80px;
   background-color: #eee;
-  -webkit-transition: all 425ms cubic-bezier(.165, .84, .44, 1);
-  transition: all 425ms cubic-bezier(.165, .84, .44, 1);
+  -webkit-transition: all 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .button-7.default-button.card-cta.aspa_button:hover {
@@ -5343,14 +5399,25 @@ body {
 
 .button-7.default-button.card-cta.cmlg_button {
   left: 80px;
-  -webkit-transition: all 425ms cubic-bezier(.165, .84, .44, 1);
-  transition: all 425ms cubic-bezier(.165, .84, .44, 1);
+  -webkit-transition: all 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .button-7.default-button.card-cta.cmlg_button:hover {
   left: 80px;
   background-color: transparent;
-  background-image: repeating-linear-gradient(272deg, red, #ffd6a4 12%, #fff6b4 27%, #e7ffc3 42%, #d5ffd6 59%, #e4faff 74%, #bec0f0 86%, #e892d7 95%, #ff7979);
+  background-image: repeating-linear-gradient(
+    272deg,
+    red,
+    #ffd6a4 12%,
+    #fff6b4 27%,
+    #e7ffc3 42%,
+    #d5ffd6 59%,
+    #e4faff 74%,
+    #bec0f0 86%,
+    #e892d7 95%,
+    #ff7979
+  );
   box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -5359,8 +5426,8 @@ body {
 
 .button-7.default-button.card-cta.nzcsa_button {
   left: 80px;
-  -webkit-transition: all 425ms cubic-bezier(.165, .84, .44, 1);
-  transition: all 425ms cubic-bezier(.165, .84, .44, 1);
+  -webkit-transition: all 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: all 425ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .button-7.default-button.card-cta.nzcsa_button:hover {
@@ -5531,7 +5598,7 @@ body {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #4e4e4e;
   font-size: 16.5px;
   line-height: 28px;
@@ -6168,10 +6235,12 @@ html.w-mod-js *[data-ix="process-1"] {
     -o-object-fit: fill;
     object-fit: fill;
   }
-  
+
   .card-2.card3-content {
-    background-image: url('../images/NZCSA_Logo.jpg'), -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
-    background-image: url('../images/NZCSA_Logo.jpg'), linear-gradient(180deg, transparent, transparent);
+    background-image: url("../images/NZCSA_Logo.jpg"),
+      -webkit-gradient(linear, left top, left bottom, from(transparent), to(transparent));
+    background-image: url("../images/NZCSA_Logo.jpg"),
+      linear-gradient(180deg, transparent, transparent);
     background-size: auto, auto;
     background-repeat: no-repeat, repeat;
   }
@@ -6199,8 +6268,10 @@ html.w-mod-js *[data-ix="process-1"] {
     right: 30px;
     bottom: 20px;
     display: block;
-    -webkit-transition: color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
-    transition: color 200ms ease, background-color 200ms ease, box-shadow 200ms ease;
+    -webkit-transition: color 200ms ease, background-color 200ms ease,
+      box-shadow 200ms ease;
+    transition: color 200ms ease, background-color 200ms ease,
+      box-shadow 200ms ease;
     text-align: center;
   }
 
@@ -6279,7 +6350,7 @@ html.w-mod-js *[data-ix="process-1"] {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-}
+  }
 
   .hero-content-wrapper {
     -webkit-box-pack: start;
@@ -6627,7 +6698,6 @@ html.w-mod-js *[data-ix="process-1"] {
     right: -72%;
   }
 
-
   .carousel-slider._10 {
     right: -81%;
   }
@@ -6659,7 +6729,6 @@ html.w-mod-js *[data-ix="process-1"] {
   .carousel-slider._17 {
     right: -144%;
   }
-
 
   .carousel-mask {
     width: 60%;
@@ -7709,7 +7778,6 @@ html.w-mod-js *[data-ix="process-1"] {
     margin-left: 2px;
   }
 
-  
   .image-24 {
     margin-top: -24px;
     padding-top: 0px;
@@ -7911,50 +7979,50 @@ html.w-mod-js *[data-ix="process-1"] {
 }
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeue-Medium.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeueLight.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueLight.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeue-Roman.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Roman.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeue-Thin.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeue-Heavy.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Heavy.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeue-Black.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeue-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('../fonts/HelveticaNeueBold.woff') format('woff');
+  font-family: "Helvetica Neue";
+  src: url("../fonts/HelveticaNeueBold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: auto;
